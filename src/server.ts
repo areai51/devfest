@@ -3,7 +3,7 @@ import express, { Request, Response } from "express";
 const server = express();
 
 server.get("/", (req, res) => {
-  res.send("YoHO !!! branch 2\n");
+  res.send("Hello DevFest \n");
 });
 
 export { server };
