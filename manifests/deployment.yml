@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: devfest 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: devfest 
+    spec:
+      containers:
+        - name: devfest 
+          image: devfestrc.azurecr.io/devfest
+          ports:
+          - containerPort: 8000
