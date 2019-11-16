@@ -8,8 +8,8 @@
     "clean": "rm -rf ./dist/* ",
     "build": "tsc ",
     "start": "node ./dist/index.js",
-    "bd": "docker build -t oprah .",
-    "rd": "docker run -p 8000:8000 -d oprah"
+    "bd": "docker build -t devfest .",
+    "rd": "docker run -p 8000:8000 -d devfest"
   },
   "author": "",
   "license": "MIT",
